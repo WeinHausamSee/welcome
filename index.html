@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Willkommen im Weinhaus am See</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Herzlich Willkommen im</h1>
+      <h2>Weinhaus am See</h2>
+    </header>
+
+    <main class="grid-layout">
+      <div class="right-top">
+        <div class="diashow">
+          <img id="slide" src="images/placeholder1.jpg" alt="Diashow" />
+        </div>
+        <div class="weather">
+          <iframe src="https://www.wetter.at/wetter/widget/26054" width="300" height="200" frameborder="0"></iframe>
+        </div>
+      </div>
+
+      <div class="left-info">
+        <h3>WLAN-Zugang</h3>
+        <p><strong>Netzwerk:</strong> Weinhaus am See</p>
+        <p><strong>Passwort:</strong> 1234567890</p>
+        <img src="qr/qr.png" alt="QR-Code für WLAN" class="qr-code" />
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
